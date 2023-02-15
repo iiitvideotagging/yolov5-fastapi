@@ -1,0 +1,42 @@
+# YOLOv5 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python-headless>=4.5.3.56
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1  # Google Colab version
+torch>=1.13.1
+torchvision>=0.8.1
+tqdm>=4.41.0
+protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Extras --------------------------------------
+ipython  # interactive notebook
+psutil==5.9.4
+thop  # FLOPs computation
+streamlit==1.16.0
+st_btn_select
+wget==3.2
+pip==21.1.2
+wheel==0.36.2
+setuptools==57.0.0
+ffmpeg-python
+
+# Tracking ------------------------------------
+filterpy
+scikit-image
+
+
+
